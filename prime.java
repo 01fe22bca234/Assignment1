@@ -12,13 +12,13 @@ public class prime
 
         int average = (num1 + num2) / 2;
 
-        System.out.println("Prime numbers between 1 and the average (" + average + "):");
+        System.out.println("Prime numbers between 1 and the average is  (" + average + "):");
 
 
         for (int i = 2; i <= average; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
-            }
+            } 
         }
 
         scanner.close();
